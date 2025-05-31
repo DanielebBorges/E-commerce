@@ -5,6 +5,14 @@
     <p class="text-center text-sm uppercase">{{ produto.category }}</p>
     <p class="text-center text-sm uppercase">Em estoque: {{ produto.stock }}</p>
     <p class="text-center text-[#c115ef] font-semibold mt-1">R$ {{ produto.price }}</p>
+    <div class="flex justify-center">
+     <router-link
+      :to="`/detalhes/${produto.id}`"
+      class="mt-4 px-4 py-2 bg-[#c115ef] text-white rounded hover:bg-[#9711bb] transition text-center"
+    >
+      Detalhes
+    </router-link>
+    </div>
   </div>
 </template>
 
