@@ -1,5 +1,5 @@
 <template>
-    <nav class="bg-[#c115ef] text-white py-4 px-8 flex justify-between items-center">
+    <nav class="bg-[#c115ef] text-white py-4 px-8 flex justify-between items-center ">
         <h1 class="text-lg front-bold font-display">
             Bardaniê
         </h1>
