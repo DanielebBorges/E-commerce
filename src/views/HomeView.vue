@@ -15,6 +15,9 @@
       <button @click="nextProdutos" class="btn bg-[#c115ef] text-white px-4 py-2 rounded hover:bg-[#9711bb]">Próximo</button>
     </div>
   </div>
+    <div>
+    <BuscaProdutosComponent />
+  </div>
 </template>
 
 <script setup>
@@ -57,5 +60,7 @@ const previousProdutos = () => {
 }
 
 onMounted(fetchProducts)
+
+import BuscaProdutosComponent from '../components/PesquisaComponent.vue'
 
 </script>

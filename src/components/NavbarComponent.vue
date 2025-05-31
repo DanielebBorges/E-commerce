@@ -15,6 +15,7 @@
             <li><router-link to="/automativo" class="hover:underline">Automativos</router-link></li>
             
             
+            
 
         </ul>
     </nav>
