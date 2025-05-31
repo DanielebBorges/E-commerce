@@ -1,6 +1,6 @@
 <template>
   <div class="px-6 pb-20">
-    <h1 class="text-3xl font-bold text-center mb-6">Produtos</h1>
+    <h1 class="text-3xl font-bold text-center mb-6 font-display">Todos os Produtos</h1>
 
     <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
       <ProdutoCard 
