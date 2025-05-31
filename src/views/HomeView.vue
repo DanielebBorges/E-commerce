@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="px-6 pb-20">
     <h1 class="text-3xl font-bold text-center mb-6">Produtos</h1>
 
     <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
@@ -11,8 +11,8 @@
     </div>
 
     <div class="flex justify-center gap-4 mt-6">
-      <button @click="previousProdutos" :disabled="skip === 0" class="btn bg-[#c115ef] text-white px-4 py-2 rounded hover:bg-blue-700 disabled:bg-gray-400">Anterior</button>
-      <button @click="nextProdutos" class="btn bg-[#c115ef] text-white px-4 py-2 rounded hover:bg-blue-700">Próximo</button>
+      <button @click="previousProdutos" :disabled="skip === 0" class="btn bg-[#c115ef] text-white px-4 py-2 rounded hover:bg-[#9711bb] disabled:bg-gray-400">Anterior</button>
+      <button @click="nextProdutos" class="btn bg-[#c115ef] text-white px-4 py-2 rounded hover:bg-[#9711bb]">Próximo</button>
     </div>
   </div>
 </template>
