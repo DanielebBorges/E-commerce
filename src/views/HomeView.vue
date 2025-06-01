@@ -61,6 +61,4 @@ const previousProdutos = () => {
 
 onMounted(fetchProducts)
 
-import BuscaProdutosComponent from '../components/PesquisaComponent.vue'
-
 </script>
