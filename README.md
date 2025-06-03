@@ -12,7 +12,9 @@ Após clicar no botão detalhes o usuário é redirecionado a outra tela que mos
 No Navbar os produtos são separados em categorias, e o usuário pode escolher qual a melhor opção que ele procura no momento, há tambem uma barra de pesquisa para o usuario encontrar os produtos com mais agilidade.
 
 ![Exemplo de categoria](assets/categoriaExemplo.png)
-Exemplo de pesquisa "apple":
+
+Exemplo de pesquisa "apple":  
+
 ![Pesquisa](assets/Pesquisa.png)
 
 ## Como executar o sistema?
